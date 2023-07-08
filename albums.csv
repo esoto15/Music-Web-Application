@@ -1,0 +1,1001 @@
+album_id,artist_id,genre_id,album_name
+1,412,6,When I Fall in Love
+2,339,4,With or Without You
+50,339,4,The Unforgiven
+456,339,4,Waterloo
+655,339,4,The Unforgiven
+3,353,2,Broken Bottles and Shattered Dreams
+663,353,2,You've Got a Friend
+4,314,3,You Shook Me All Night Long
+259,314,3,You Make My Dreams
+361,314,3,The Winner Takes It All
+407,314,3,The Great Divide
+552,314,3,We Will Rock You
+5,281,3,The Last Goodbye
+47,281,3,Up Where We Belong
+337,281,3,The Night They Drove Old Dixie Down
+737,281,3,Ticket to Ride
+6,485,2,When Doves Cry
+73,485,2,Riders on the Storm
+267,485,2,What's Going On
+649,485,2,Your Song
+659,485,2,Truly Madly Deeply
+675,485,2,Riders on the Storm
+7,187,6,Neon Lights and City Streets
+127,187,6,Twist and Shout
+488,187,6,Waterloo
+825,187,6,Up Where We Belong
+8,272,2,Yesterday
+941,272,2,The River
+9,207,1,Toxic
+10,141,2,The Unforgiven
+867,141,2,When Doves Cry
+11,386,1,What a Wonderful World
+772,386,1,The Man in Black
+946,386,1,The Scientist
+12,51,1,Viva la Vida
+67,51,1,The River
+411,51,1,Thunder Road
+499,51,1,White Rabbit
+648,51,1,Whiskey and Cigarettes
+933,51,1,The Weight of the World
+13,36,4,You're Beautiful
+99,36,4,The Wind Beneath My Wings
+330,36,4,Tiny Dancer
+702,36,4,The End of the Line
+893,36,4,Toxic
+942,36,4,Whole Lotta Love
+14,50,6,Under Pressure
+15,457,2,Purple Monkey Dishwasher
+272,457,2,Wild Thing
+569,457,2,The Winner Takes It All
+990,457,2,The Boys Are Back in Town
+997,457,2,The Scientist
+16,364,3,You Give Love a Bad Name
+17,265,6,Wonderwall
+342,265,6,Wild Thing
+767,265,6,The Wild Rover
+982,265,6,Waterloo
+18,174,6,The Wind Beneath My Wings
+19,487,5,The Wind Cries Mary
+424,487,5,We Are the Champions
+681,487,5,The Yellow Submarine
+20,473,5,White Rabbit
+21,100,3,The Yellow Submarine
+581,100,3,When I Fall in Love
+604,100,3,Tiny Dancer
+964,100,3,Walking on Sunshine
+22,45,5,The Boys Are Back in Town
+77,45,5,You're Beautiful
+23,18,6,You Make My Dreams
+191,18,6,Electric Blue
+24,439,4,You're Beautiful
+62,439,4,Under Pressure
+25,114,1,You Make My Dreams
+327,114,1,Unforgettable
+611,114,1,Twist and Shout
+713,114,1,Yesterday
+26,134,2,Twist and Shout
+270,134,2,Tiny Dancer
+478,134,2,Thunder Road
+27,257,1,Unforgettable
+45,257,1,The Joker
+348,257,1,With or Without You
+998,257,1,The Unforgiven
+28,191,1,Walking on Sunshine
+29,250,6,The End of the Line
+120,250,6,Neon Lights and City Streets
+30,68,5,We Are the Champions
+100,68,5,U Can't Touch This
+534,68,5,You Are the Sunshine of My Life
+884,68,5,The Last Goodbye
+31,118,4,The Great Divide
+35,118,4,The Scientist
+443,118,4,You Really Got Me
+730,118,4,You Can't Always Get What You Want
+32,313,5,Where the Streets Have No Name
+33,35,3,We Will Rock You
+914,35,3,White Rabbit
+34,202,3,Sunny Side Up
+103,202,3,Your Song
+198,202,3,Unforgettable
+506,202,3,The Passenger
+577,202,3,White Rabbit
+36,69,1,Thunder Road
+53,69,1,Waterloo
+200,69,1,The Zoo
+245,69,1,The Chain
+721,69,1,Yesterday
+37,451,2,Echoes in the Wind
+78,451,2,Riders on the Storm
+704,451,2,White Rabbit
+951,451,2,Purple Monkey Dishwasher
+38,444,2,The Ghost of Tom Joad
+992,444,2,The Long and Winding Road
+39,258,2,The Boys Are Back in Town
+818,258,2,Riders on the Storm
+40,241,5,Riders on the Storm
+865,241,5,The Chain
+939,241,5,We Will Rock You
+41,338,5,The Yellow Submarine
+625,338,5,The Long and Winding Road
+630,338,5,Ticket to Ride
+905,338,5,You Can't Always Get What You Want
+966,338,5,Under Pressure
+42,356,2,The World Is Not Enough
+379,356,2,When I Fall in Love
+498,356,2,The Devil Went Down to Georgia
+979,356,2,Wild Horses
+43,236,1,With or Without You
+423,236,1,Yesterday
+808,236,1,You Shook Me All Night Long
+44,151,3,You Shook Me All Night Long
+197,151,3,The Last Goodbye
+46,210,5,Time After Time
+151,210,5,Your Song
+48,331,1,Toxic
+934,331,1,The Man in Black
+49,361,4,Echoes in the Wind
+65,361,4,The Wild Rover
+188,361,4,The Times They Are A-Changin'
+51,19,6,The Wild Rover
+909,19,6,You Shook Me All Night Long
+52,138,4,The Zoo
+430,138,4,We Are the Champions
+507,138,4,The Ballad of John and Yoko
+54,74,6,Tiny Dancer
+157,74,6,The Winner Takes It All
+240,74,6,The Unforgiven
+387,74,6,The Zoo
+402,74,6,You've Got a Friend
+753,74,6,Wind of Change
+55,268,6,Truly Madly Deeply
+66,268,6,The Night They Drove Old Dixie Down
+889,268,6,Ticket to Ride
+56,107,4,The Chain
+226,107,4,Wind of Change
+57,221,3,We Will Rock You
+313,221,3,With or Without You
+670,221,3,The Weight of the World
+58,227,1,The Way You Make Me Feel
+144,227,1,The Last Goodbye
+490,227,1,Walking on Sunshine
+59,200,6,The Last Goodbye
+222,200,6,The Great Divide
+60,157,3,The Unforgiven
+216,157,3,You Make My Dreams
+61,188,4,The Man in Black
+185,188,4,You Shook Me All Night Long
+910,188,4,The Ghost of Tom Joad
+63,158,3,Sunny Side Up
+323,158,3,The Devil Went Down to Georgia
+355,158,3,The Way You Make Me Feel
+436,158,3,You've Got a Friend
+64,500,1,The Ballad of John and Yoko
+68,256,1,You Can't Always Get What You Want
+494,256,1,The End of the Line
+69,71,3,The Times They Are A-Changin'
+244,71,3,You Are the Sunshine of My Life
+350,71,3,You Make My Dreams
+431,71,3,Twist and Shout
+640,71,3,The Wind Cries Mary
+70,445,3,You Are the Sunshine of My Life
+147,445,3,Truly Madly Deeply
+298,445,3,The Last Goodbye
+732,445,3,You Give Love a Bad Name
+71,113,6,When I Fall in Love
+440,113,6,The Devil Went Down to Georgia
+777,113,6,Thunder Road
+843,113,6,The Wild Rover
+72,11,4,You Really Got Me
+134,11,4,You Can't Always Get What You Want
+451,11,4,White Rabbit
+877,11,4,White Rabbit
+995,11,4,You Really Got Me
+74,301,4,U Can't Touch This
+266,301,4,With or Without You
+75,298,1,Yesterday
+140,298,1,Time After Time
+162,298,1,Time After Time
+481,298,1,The Weight of the World
+622,298,1,Electric Blue
+637,298,1,The Ghost of Tom Joad
+855,298,1,Electric Blue
+76,443,5,The Weight of the World
+375,443,5,Wild Thing
+654,443,5,Toxic
+79,27,2,Unforgettable
+80,280,6,Midnight Train to Georgia
+81,367,6,The Devil Went Down to Georgia
+248,367,6,What's Going On
+497,367,6,The Last Goodbye
+799,367,6,When I Fall in Love
+82,454,5,Under the Bridge
+475,454,5,With or Without You
+83,334,6,Broken Bottles and Shattered Dreams
+84,262,4,The Times They Are A-Changin'
+257,262,4,The Joker
+950,262,4,Whiskey and Cigarettes
+999,262,4,You're the One That I Want
+85,205,5,Midnight Train to Georgia
+117,205,5,The Wind Cries Mary
+86,323,4,Wild Thing
+109,323,4,With or Without You
+512,323,4,You're the One That I Want
+898,323,4,The Ghost of Tom Joad
+87,196,3,Neon Lights and City Streets
+139,196,3,Wonderwall
+489,196,3,Yesterday
+505,196,3,You Give Love a Bad Name
+88,320,5,The Ghost of Tom Joad
+89,199,6,Neon Lights and City Streets
+366,199,6,Time After Time
+555,199,6,Walk This Way
+90,233,2,What's Going On
+944,233,2,Ticket to Ride
+91,474,5,Walking on Sunshine
+646,474,5,You've Got a Friend
+791,474,5,Wild Thing
+856,474,5,White Rabbit
+92,21,1,You're the One That I Want
+93,104,4,Twist and Shout
+872,104,4,Up Where We Belong
+918,104,4,You're the One That I Want
+94,417,5,Walking on Sunshine
+502,417,5,U Can't Touch This
+665,417,5,The Times They Are A-Changin'
+95,407,6,Whole Lotta Love
+875,407,6,The River
+96,103,1,What's Going On
+613,103,1,The Wind Cries Mary
+869,103,1,Yesterday
+97,101,6,Tiny Dancer
+674,101,6,Wonderwall
+98,144,6,We Are the Champions
+525,144,6,The Ghost of Tom Joad
+714,144,6,Riders on the Storm
+797,144,6,The Devil Went Down to Georgia
+101,377,2,You Really Got Me
+125,377,2,The Ghost of Tom Joad
+587,377,2,The River
+812,377,2,The Boys Are Back in Town
+102,259,6,Walk This Way
+207,259,6,The Wild Rover
+568,259,6,The Night They Drove Old Dixie Down
+860,259,6,Purple Monkey Dishwasher
+104,478,1,Neon Lights and City Streets
+692,478,1,Yesterday
+105,171,4,Midnight Train to Georgia
+247,171,4,The Yellow Submarine
+106,397,6,When You Say Nothing at All
+107,131,1,You Make My Dreams
+598,131,1,Under Pressure
+108,219,1,Echoes in the Wind
+311,219,1,The Wanderer
+110,253,6,With or Without You
+476,253,6,The Devil Went Down to Georgia
+768,253,6,Viva la Vida
+111,224,4,Wild Thing
+398,224,4,Neon Lights and City Streets
+683,224,4,The Wanderer
+112,489,1,The Zoo
+919,489,1,You're the One That I Want
+113,271,1,You've Got a Friend
+155,271,1,The Chain
+883,271,1,The Way You Make Me Feel
+114,163,6,The Wild Rover
+159,163,6,Wonderwall
+425,163,6,The Way You Make Me Feel
+774,163,6,You Really Got Me
+813,163,6,Wind of Change
+115,31,6,Riders on the Storm
+179,31,6,You've Got a Friend
+116,76,3,You Are the Sunshine of My Life
+635,76,3,Where the Streets Have No Name
+118,126,4,The Wild Rover
+182,126,4,When Doves Cry
+258,126,4,The Night They Drove Old Dixie Down
+268,126,4,The Quick Brown Fox Jumps Over the Lazy Dog
+303,126,4,When I Fall in Love
+442,126,4,Thunder Road
+510,126,4,Viva la Vida
+119,336,4,Electric Blue
+557,336,4,White Rabbit
+121,79,2,The Weight of the World
+238,79,2,The Way You Make Me Feel
+122,215,3,You Give Love a Bad Name
+416,215,3,The Quick Brown Fox Jumps Over the Lazy Dog
+900,215,3,You Really Got Me
+123,287,1,The Unforgiven
+403,287,1,White Rabbit
+483,287,1,Time After Time
+924,287,1,Thunder Road
+991,287,1,The Winner Takes It All
+124,415,4,Viva la Vida
+335,415,4,The Winner Takes It All
+698,415,4,The End of the Line
+819,415,4,Broken Bottles and Shattered Dreams
+126,218,3,Echoes in the Wind
+148,218,3,You Shook Me All Night Long
+381,218,3,The Sound of Silence
+516,218,3,With or Without You
+128,251,1,The Sound of Silence
+292,251,1,Whiskey and Cigarettes
+553,251,1,Truly Madly Deeply
+589,251,1,The River
+129,274,3,Whole Lotta Love
+130,98,3,You're Beautiful
+152,98,3,The World Is Not Enough
+657,98,3,You Can't Always Get What You Want
+131,181,3,Whole Lotta Love
+312,181,3,Walking on Sunshine
+593,181,3,You Can't Always Get What You Want
+132,285,2,Ticket to Ride
+186,285,2,Time After Time
+579,285,2,You're the One That I Want
+133,46,5,Truly Madly Deeply
+215,46,5,You Can't Always Get What You Want
+491,46,5,Ticket to Ride
+135,125,5,You're the One That I Want
+164,125,5,Waterloo
+328,125,5,You're the One That I Want
+482,125,5,The World Is Not Enough
+136,326,6,Midnight Train to Georgia
+789,326,6,What's Going On
+891,326,6,The Wanderer
+137,115,5,The Chain
+638,115,5,Whiskey and Cigarettes
+138,193,1,Your Song
+444,193,1,Under the Bridge
+141,360,2,U Can't Touch This
+621,360,2,The Scientist
+710,360,2,Wonderwall
+142,260,3,The Winner Takes It All
+143,427,6,Ticket to Ride
+209,427,6,Ticket to Ride
+145,284,5,The Ballad of John and Yoko
+473,284,5,The River
+578,284,5,You're the One That I Want
+660,284,5,With or Without You
+762,284,5,You Really Got Me
+146,28,4,You Are the Sunshine of My Life
+239,28,4,The Devil Went Down to Georgia
+149,47,2,Time After Time
+373,47,2,Electric Blue
+406,47,2,U Can't Touch This
+823,47,2,Thunder Road
+929,47,2,Time After Time
+150,310,2,Twist and Shout
+153,322,1,The Unforgiven
+281,322,1,Midnight Train to Georgia
+827,322,1,The Wind Cries Mary
+154,325,6,We Are the Champions
+156,13,1,You're Beautiful
+471,13,1,The Way You Make Me Feel
+511,13,1,White Rabbit
+786,13,1,Wind of Change
+935,13,1,Electric Blue
+952,13,1,What a Wonderful World
+158,319,1,When You Say Nothing at All
+213,319,1,Where the Streets Have No Name
+241,319,1,Riders on the Storm
+160,82,5,We Will Rock You
+161,492,1,Wind of Change
+915,492,1,You Really Got Me
+926,492,1,Whole Lotta Love
+956,492,1,When Doves Cry
+163,150,6,Wild Thing
+165,392,2,The End of the Line
+190,392,2,The Boys Are Back in Town
+166,127,4,Waterloo
+529,127,4,Tiny Dancer
+986,127,4,Waterloo
+167,401,6,What a Wonderful World
+901,401,6,The Last Goodbye
+168,329,5,You Can't Always Get What You Want
+435,329,5,The Wind Beneath My Wings
+572,329,5,White Rabbit
+169,267,3,Wild Thing
+283,267,3,U Can't Touch This
+170,243,1,The Winner Takes It All
+989,243,1,Up Where We Belong
+171,67,5,White Rabbit
+521,67,5,The Scientist
+706,67,5,The Wind Beneath My Wings
+172,351,3,The Wind Cries Mary
+205,351,3,Electric Blue
+834,351,3,Waterloo
+882,351,3,Midnight Train to Georgia
+173,97,4,Ticket to Ride
+293,97,4,Thunder Road
+757,97,4,Whole Lotta Love
+174,197,5,Midnight Train to Georgia
+725,197,5,The Chain
+734,197,5,The Unforgiven
+175,145,1,Under the Bridge
+176,413,3,Walk This Way
+177,288,4,Where the Streets Have No Name
+961,288,4,The Last Goodbye
+178,304,1,What a Wonderful World
+356,304,1,Viva la Vida
+908,304,1,The Scientist
+958,304,1,The Great Divide
+180,341,1,Ticket to Ride
+459,341,1,When Doves Cry
+690,341,1,Unforgettable
+181,303,4,The Man in Black
+954,303,4,The Boys Are Back in Town
+183,395,2,The Zoo
+260,395,2,The Winner Takes It All
+528,395,2,With or Without You
+656,395,2,You Really Got Me
+727,395,2,The Quick Brown Fox Jumps Over the Lazy Dog
+752,395,2,When You Say Nothing at All
+853,395,2,Electric Blue
+184,245,2,The Times They Are A-Changin'
+591,245,2,You're Beautiful
+187,458,4,The Unforgiven
+365,458,4,The Weight of the World
+696,458,4,Whiskey and Cigarettes
+189,459,2,You're the One That I Want
+779,459,2,What's Going On
+192,130,5,Wild Horses
+940,130,5,Wind of Change
+193,8,4,The Wind Beneath My Wings
+228,8,4,The Quick Brown Fox Jumps Over the Lazy Dog
+321,8,4,What a Wonderful World
+194,172,4,We Are the Champions
+562,172,4,Thunder Road
+195,476,4,You're Beautiful
+360,476,4,What's Going On
+450,476,4,The Chain
+565,476,4,The Passenger
+931,476,4,Riders on the Storm
+196,185,6,Under Pressure
+199,270,1,The Yellow Submarine
+201,109,3,When Doves Cry
+401,109,3,Wild Horses
+780,109,3,You Make My Dreams
+975,109,3,The Chain
+202,111,3,Your Song
+203,371,2,Walking on Sunshine
+204,63,1,The Weight of the World
+496,63,1,You Can't Always Get What You Want
+544,63,1,We Will Rock You
+206,189,1,Up Where We Belong
+236,189,1,Thunder Road
+922,189,1,Yesterday
+208,1,3,The Wind Cries Mary
+554,1,3,Tiny Dancer
+751,1,3,You Really Got Me
+210,54,5,The Night They Drove Old Dixie Down
+445,54,5,U Can't Touch This
+962,54,5,We Will Rock You
+211,472,1,The Way You Make Me Feel
+212,165,6,Viva la Vida
+230,165,6,Twist and Shout
+607,165,6,Thunder Road
+214,44,1,Whiskey and Cigarettes
+394,44,1,The Man in Black
+551,44,1,Wind of Change
+716,44,1,Wild Horses
+217,498,1,When You Say Nothing at All
+218,376,1,Electric Blue
+912,376,1,Where the Streets Have No Name
+219,214,3,The Quick Brown Fox Jumps Over the Lazy Dog
+319,214,3,The Wild Rover
+220,418,2,White Rabbit
+916,418,2,The Quick Brown Fox Jumps Over the Lazy Dog
+221,143,1,The Unforgiven
+597,143,1,Walking on Sunshine
+994,143,1,Toxic
+223,184,4,Wind of Change
+326,184,4,The Wind Beneath My Wings
+224,49,3,The Ghost of Tom Joad
+299,49,3,The Winner Takes It All
+574,49,3,Twist and Shout
+911,49,3,The End of the Line
+225,469,3,You Shook Me All Night Long
+324,469,3,You Make My Dreams
+838,469,3,The World Is Not Enough
+972,469,3,Echoes in the Wind
+227,15,3,What a Wonderful World
+415,15,3,Whole Lotta Love
+229,411,4,You're the One That I Want
+396,411,4,The Zoo
+492,411,4,The Boys Are Back in Town
+798,411,4,The Winner Takes It All
+923,411,4,You've Got a Friend
+231,237,4,Waterloo
+841,237,4,The Joker
+232,396,3,Your Song
+802,396,3,The Great Divide
+233,146,5,The Man in Black
+246,146,5,You Shook Me All Night Long
+234,81,3,Whiskey and Cigarettes
+561,81,3,Wonderwall
+792,81,3,Walk This Way
+235,266,1,The Ghost of Tom Joad
+237,424,1,The Night They Drove Old Dixie Down
+785,424,1,Riders on the Storm
+987,424,1,The Yellow Submarine
+242,38,3,Truly Madly Deeply
+408,38,3,With or Without You
+243,467,4,The Sound of Silence
+249,279,1,Purple Monkey Dishwasher
+250,317,1,The Winner Takes It All
+540,317,1,You're Beautiful
+563,317,1,Walk This Way
+251,37,4,The Wind Cries Mary
+290,37,4,Unforgettable
+745,37,4,You Really Got Me
+252,373,2,The Unforgiven
+253,91,2,The Great Divide
+543,91,2,Echoes in the Wind
+254,372,5,Wild Thing
+255,75,6,Under the Bridge
+405,75,6,Your Song
+671,75,6,The Times They Are A-Changin'
+256,462,1,You're Beautiful
+549,462,1,Up Where We Belong
+261,366,4,Yesterday
+409,366,4,The Night They Drove Old Dixie Down
+463,366,4,Echoes in the Wind
+953,366,4,The Wanderer
+262,29,6,The Last Goodbye
+274,29,6,The Joker
+895,29,6,The Joker
+263,128,4,What a Wonderful World
+264,190,3,The Yellow Submarine
+679,190,3,The Quick Brown Fox Jumps Over the Lazy Dog
+741,190,3,Wild Horses
+747,190,3,The Unforgiven
+265,321,2,Unforgettable
+687,321,2,Wonderwall
+943,321,2,The Wanderer
+269,348,1,When You Say Nothing at All
+460,348,1,The Joker
+980,348,1,Riders on the Storm
+271,148,2,Walking on Sunshine
+276,148,2,The Passenger
+907,148,2,Wild Thing
+936,148,2,Whole Lotta Love
+273,466,1,Your Song
+282,466,1,The Winner Takes It All
+317,466,1,When I Fall in Love
+275,77,2,Walking on Sunshine
+392,77,2,The Wind Cries Mary
+969,77,2,The Chain
+277,365,1,White Rabbit
+344,365,1,With or Without You
+631,365,1,Viva la Vida
+913,365,1,Echoes in the Wind
+278,448,2,You're Beautiful
+279,16,4,Ticket to Ride
+522,16,4,The Devil Went Down to Georgia
+736,16,4,Wild Thing
+970,16,4,The Last Goodbye
+280,149,5,Under the Bridge
+608,149,5,The Great Divide
+284,136,6,Riders on the Storm
+285,238,6,Ticket to Ride
+286,55,1,The Chain
+289,55,1,Under Pressure
+287,32,2,The Scientist
+584,32,2,Electric Blue
+288,327,1,Broken Bottles and Shattered Dreams
+988,327,1,When You Say Nothing at All
+291,426,5,The Sound of Silence
+294,89,1,Purple Monkey Dishwasher
+295,428,4,Thunder Road
+847,428,4,The Way You Make Me Feel
+892,428,4,Walk This Way
+296,80,2,Under Pressure
+658,80,2,The Wind Cries Mary
+676,80,2,Twist and Shout
+297,23,4,Toxic
+368,23,4,Time After Time
+948,23,4,When I Fall in Love
+967,23,4,What's Going On
+300,414,1,Your Song
+301,349,2,We Are the Champions
+307,349,2,Under Pressure
+302,116,4,We Are the Champions
+809,116,4,You've Got a Friend
+304,194,6,Whole Lotta Love
+1000,194,6,Truly Madly Deeply
+305,497,4,Twist and Shout
+641,497,4,Your Song
+306,212,4,Waterloo
+420,212,4,Up Where We Belong
+308,264,1,Ticket to Ride
+309,278,1,The Devil Went Down to Georgia
+310,159,2,Whole Lotta Love
+331,159,2,With or Without You
+314,358,6,The Devil Went Down to Georgia
+336,358,6,Waterloo
+760,358,6,The River
+866,358,6,Up Where We Belong
+315,475,2,Twist and Shout
+399,475,2,You Really Got Me
+722,475,2,White Rabbit
+316,394,3,U Can't Touch This
+393,394,3,The Unforgiven
+318,406,2,Under the Bridge
+503,406,2,White Rabbit
+320,374,2,Purple Monkey Dishwasher
+599,374,2,U Can't Touch This
+633,374,2,The Wind Cries Mary
+888,374,2,Wild Thing
+322,137,3,Wild Thing
+325,309,4,What a Wonderful World
+353,309,4,Neon Lights and City Streets
+358,309,4,The Passenger
+801,309,4,Neon Lights and City Streets
+861,309,4,The Ballad of John and Yoko
+329,95,6,You're the One That I Want
+332,409,6,The Ballad of John and Yoko
+357,409,6,Under Pressure
+874,409,6,The Sound of Silence
+333,12,1,The World Is Not Enough
+410,12,1,The Joker
+437,12,1,We Will Rock You
+334,160,5,The Scientist
+733,160,5,The Quick Brown Fox Jumps Over the Lazy Dog
+749,160,5,The Joker
+790,160,5,The Winner Takes It All
+822,160,5,Whiskey and Cigarettes
+338,311,5,When You Say Nothing at All
+339,436,1,Under the Bridge
+605,436,1,The Weight of the World
+340,177,2,Wild Thing
+500,177,2,The River
+833,177,2,The Quick Brown Fox Jumps Over the Lazy Dog
+341,56,2,Thunder Road
+689,56,2,When You Say Nothing at All
+343,201,4,The Wanderer
+384,201,4,We Will Rock You
+345,488,2,When I Fall in Love
+372,488,2,The Man in Black
+766,488,2,The Way You Make Me Feel
+930,488,2,Where the Streets Have No Name
+949,488,2,The Long and Winding Road
+993,488,2,Whiskey and Cigarettes
+346,324,4,The World Is Not Enough
+619,324,4,You Really Got Me
+347,179,4,You Really Got Me
+390,179,4,You've Got a Friend
+427,179,4,Your Song
+349,59,5,The Wild Rover
+610,59,5,You Shook Me All Night Long
+351,6,6,The Wild Rover
+539,6,6,The Weight of the World
+662,6,6,Purple Monkey Dishwasher
+352,486,6,Up Where We Belong
+470,486,6,The Yellow Submarine
+985,486,6,We Will Rock You
+354,96,6,Ticket to Ride
+359,302,1,When You Say Nothing at All
+362,463,5,Time After Time
+363,369,5,The Devil Went Down to Georgia
+364,106,2,Up Where We Belong
+432,106,2,Echoes in the Wind
+464,106,2,Wild Horses
+367,442,6,You Make My Dreams
+796,442,6,Wonderwall
+800,442,6,The Man in Black
+890,442,6,Walk This Way
+369,375,6,Yesterday
+370,246,4,Ticket to Ride
+724,246,4,The Chain
+371,235,1,Midnight Train to Georgia
+667,235,1,What a Wonderful World
+764,235,1,What a Wonderful World
+374,477,5,Time After Time
+650,477,5,Under the Bridge
+955,477,5,The Long and Winding Road
+376,39,3,The River
+395,39,3,Thunder Road
+377,176,5,The Joker
+457,176,5,The End of the Line
+509,176,5,Toxic
+743,176,5,Twist and Shout
+746,176,5,You Really Got Me
+378,464,3,Ticket to Ride
+628,464,3,The Wanderer
+380,9,6,You're the One That I Want
+756,9,6,Sunny Side Up
+382,408,5,You Make My Dreams
+383,408,5,The Sound of Silence
+439,408,5,The Chain
+458,408,5,Electric Blue
+615,408,5,White Rabbit
+385,294,5,The Ballad of John and Yoko
+386,85,4,The Wanderer
+536,85,4,Echoes in the Wind
+697,85,4,Neon Lights and City Streets
+973,85,4,U Can't Touch This
+388,468,6,Under Pressure
+804,468,6,You Give Love a Bad Name
+389,291,4,Where the Streets Have No Name
+391,140,4,Truly Madly Deeply
+548,140,4,The Yellow Submarine
+773,140,4,Where the Streets Have No Name
+397,389,3,Viva la Vida
+400,297,1,Under the Bridge
+484,297,1,The Wind Beneath My Wings
+517,297,1,You're the One That I Want
+404,53,3,The World Is Not Enough
+412,132,3,Purple Monkey Dishwasher
+501,132,3,Waterloo
+647,132,3,The Ghost of Tom Joad
+413,335,6,The Ballad of John and Yoko
+731,335,6,Electric Blue
+414,156,2,Up Where We Belong
+712,156,2,Sunny Side Up
+718,156,2,The Sound of Silence
+857,156,2,The World Is Not Enough
+947,156,2,Wonderwall
+417,494,5,Neon Lights and City Streets
+418,277,3,What a Wonderful World
+419,422,3,Yesterday
+709,422,3,The World Is Not Enough
+421,88,5,The Quick Brown Fox Jumps Over the Lazy Dog
+735,88,5,The Wild Rover
+902,88,5,Toxic
+906,88,5,The Man in Black
+422,357,2,You Really Got Me
+938,357,2,Neon Lights and City Streets
+974,357,2,Wild Horses
+426,496,3,The Winner Takes It All
+723,496,3,The Joker
+769,496,3,Broken Bottles and Shattered Dreams
+428,4,1,The Scientist
+429,247,3,Under the Bridge
+653,247,3,Under Pressure
+886,247,3,Under Pressure
+433,456,6,Sunny Side Up
+580,456,6,The Wild Rover
+434,20,4,Electric Blue
+527,20,4,The Unforgiven
+573,20,4,Thunder Road
+858,20,4,Walk This Way
+438,7,3,The Passenger
+441,355,5,Broken Bottles and Shattered Dreams
+824,355,5,Broken Bottles and Shattered Dreams
+446,316,5,Unforgettable
+447,398,2,Under Pressure
+564,398,2,The Last Goodbye
+448,255,6,Yesterday
+449,72,3,You've Got a Friend
+479,72,3,The Weight of the World
+537,72,3,Unforgettable
+688,72,3,The Passenger
+452,419,4,The Zoo
+526,419,4,Purple Monkey Dishwasher
+582,419,4,Whole Lotta Love
+583,419,4,The Times They Are A-Changin'
+453,121,5,Broken Bottles and Shattered Dreams
+454,495,6,The Great Divide
+703,495,6,White Rabbit
+836,495,6,When Doves Cry
+455,92,4,Under the Bridge
+461,73,4,The Last Goodbye
+871,73,4,Whole Lotta Love
+462,155,6,The Sound of Silence
+465,25,6,Unforgettable
+595,25,6,What a Wonderful World
+600,25,6,The Chain
+466,30,5,The End of the Line
+744,30,5,The Man in Black
+467,286,2,The Chain
+524,286,2,You Shook Me All Night Long
+570,286,2,The Wind Beneath My Wings
+468,440,2,Waterloo
+469,70,3,You Really Got Me
+748,70,3,U Can't Touch This
+965,70,3,The Winner Takes It All
+472,183,6,The Yellow Submarine
+810,183,6,The Scientist
+474,269,2,The Winner Takes It All
+477,195,1,The Devil Went Down to Georgia
+673,195,1,When You Say Nothing at All
+963,195,1,You Give Love a Bad Name
+480,119,1,You Can't Always Get What You Want
+541,119,1,Thunder Road
+636,119,1,Time After Time
+728,119,1,The Great Divide
+485,333,6,Time After Time
+486,359,5,Riders on the Storm
+487,10,2,Wild Horses
+814,10,2,Unforgettable
+493,5,4,Where the Streets Have No Name
+531,5,4,The Scientist
+699,5,4,The Devil Went Down to Georgia
+495,206,2,Sunny Side Up
+794,206,2,The Zoo
+504,429,1,The Man in Black
+508,416,1,The Winner Takes It All
+616,416,1,Up Where We Belong
+957,416,1,The Long and Winding Road
+513,290,3,The Night They Drove Old Dixie Down
+750,290,3,Walking on Sunshine
+514,307,1,Unforgettable
+519,307,1,Yesterday
+652,307,1,You Shook Me All Night Long
+821,307,1,We Are the Champions
+515,423,3,The Times They Are A-Changin'
+576,423,3,You've Got a Friend
+518,404,1,Echoes in the Wind
+520,433,5,The Unforgiven
+719,433,5,The Great Divide
+523,93,1,Toxic
+530,332,2,The Joker
+532,162,1,Wild Horses
+533,142,4,The Chain
+535,380,3,Thunder Road
+669,380,3,Wind of Change
+862,380,3,Wonderwall
+538,292,3,Truly Madly Deeply
+542,252,3,Viva la Vida
+826,252,3,The Scientist
+545,438,6,You Really Got Me
+546,289,2,Wind of Change
+547,420,1,The Scientist
+550,330,1,Unforgettable
+556,240,2,Wild Horses
+868,240,2,The Wind Cries Mary
+558,152,4,The Man in Black
+708,152,4,The Yellow Submarine
+781,152,4,The Way You Make Me Feel
+559,312,6,Whole Lotta Love
+661,312,6,The Scientist
+560,305,3,You Really Got Me
+566,306,4,Sunny Side Up
+784,306,4,Riders on the Storm
+567,40,5,The Passenger
+571,490,6,Viva la Vida
+618,490,6,The Winner Takes It All
+575,342,2,Wind of Change
+603,342,2,Yesterday
+585,147,2,We Will Rock You
+854,147,2,Truly Madly Deeply
+586,482,3,Walking on Sunshine
+588,122,1,Under Pressure
+590,43,2,The Sound of Silence
+592,337,4,Echoes in the Wind
+776,337,4,The Chain
+594,385,1,The Unforgiven
+680,385,1,You Shook Me All Night Long
+596,400,3,The Boys Are Back in Town
+602,400,3,What a Wonderful World
+601,22,1,You Shook Me All Night Long
+755,22,1,Toxic
+606,229,2,Riders on the Storm
+609,275,3,Purple Monkey Dishwasher
+726,275,3,You Give Love a Bad Name
+612,105,5,You're the One That I Want
+614,340,3,Ticket to Ride
+763,340,3,The Scientist
+617,384,4,Unforgettable
+620,344,2,The Quick Brown Fox Jumps Over the Lazy Dog
+759,344,2,Purple Monkey Dishwasher
+623,209,1,Tiny Dancer
+816,209,1,The Long and Winding Road
+624,382,5,The End of the Line
+626,26,4,You Shook Me All Night Long
+627,308,6,The Night They Drove Old Dixie Down
+629,41,6,The Chain
+632,48,1,Yesterday
+634,61,6,Walking on Sunshine
+715,61,6,Sunny Side Up
+837,61,6,The Wild Rover
+639,230,4,You've Got a Friend
+642,173,3,The Ballad of John and Yoko
+643,254,6,The Wind Cries Mary
+977,254,6,The Passenger
+983,254,6,Neon Lights and City Streets
+996,254,6,The Chain
+644,368,5,U Can't Touch This
+904,368,5,Under the Bridge
+645,402,1,When You Say Nothing at All
+765,402,1,The Long and Winding Road
+651,452,5,Wind of Change
+811,452,5,Echoes in the Wind
+896,452,5,Electric Blue
+664,203,4,White Rabbit
+666,3,2,Electric Blue
+793,3,2,The Chain
+668,379,3,The Last Goodbye
+677,379,3,Viva la Vida
+672,62,3,What a Wonderful World
+678,470,4,The Unforgiven
+682,405,5,Whole Lotta Love
+878,405,5,Up Where We Belong
+684,213,1,The Wanderer
+976,213,1,Walking on Sunshine
+685,318,4,The Joker
+864,318,4,Walk This Way
+686,180,4,Under the Bridge
+899,180,4,The Joker
+691,102,1,Where the Streets Have No Name
+693,393,1,Viva la Vida
+694,283,3,You Shook Me All Night Long
+695,169,4,The Man in Black
+937,169,4,Riders on the Storm
+700,425,3,The Times They Are A-Changin'
+879,425,3,The Chain
+701,465,5,The Night They Drove Old Dixie Down
+705,168,6,The Last Goodbye
+707,120,5,Where the Streets Have No Name
+783,120,5,The Last Goodbye
+711,217,4,The Ballad of John and Yoko
+851,217,4,The Yellow Submarine
+717,461,4,We Will Rock You
+984,461,4,The World Is Not Enough
+720,346,5,You Make My Dreams
+729,499,1,The Ghost of Tom Joad
+738,449,2,The Times They Are A-Changin'
+739,354,3,Walking on Sunshine
+740,186,4,Purple Monkey Dishwasher
+742,491,5,White Rabbit
+805,491,5,Waterloo
+754,78,5,You Can't Always Get What You Want
+758,99,6,The Wanderer
+761,363,2,The Man in Black
+849,363,2,When I Fall in Love
+873,363,2,Up Where We Belong
+770,450,2,You're Beautiful
+771,480,4,When Doves Cry
+885,480,4,The Night They Drove Old Dixie Down
+775,493,5,Unforgettable
+778,226,4,Wild Horses
+881,226,4,You Can't Always Get What You Want
+782,483,6,Up Where We Belong
+835,483,6,We Will Rock You
+787,182,4,Purple Monkey Dishwasher
+829,182,4,Sunny Side Up
+788,430,2,The Weight of the World
+795,345,2,When I Fall in Love
+803,175,1,You Shook Me All Night Long
+806,347,5,The Way You Make Me Feel
+917,347,5,White Rabbit
+807,242,6,The Wind Beneath My Wings
+815,64,3,Echoes in the Wind
+817,388,6,Up Where We Belong
+876,388,6,Whiskey and Cigarettes
+820,216,2,The Yellow Submarine
+828,410,2,Wild Thing
+830,153,1,The Joker
+887,153,1,When You Say Nothing at All
+831,481,2,You Make My Dreams
+832,117,3,The Sound of Silence
+839,90,1,What a Wonderful World
+840,112,3,Tiny Dancer
+920,112,3,Sunny Side Up
+842,124,5,The Devil Went Down to Georgia
+928,124,5,Under the Bridge
+844,362,1,Toxic
+845,208,6,Electric Blue
+846,293,1,The Passenger
+932,293,1,Riders on the Storm
+848,390,6,White Rabbit
+850,164,4,Midnight Train to Georgia
+852,343,1,Up Where We Belong
+859,295,2,We Are the Champions
+863,446,1,Waterloo
+870,94,1,We Are the Champions
+880,83,4,Wind of Change
+894,166,2,Time After Time
+959,166,2,We Will Rock You
+897,441,5,Walking on Sunshine
+903,460,1,The World Is Not Enough
+921,135,2,Walking on Sunshine
+925,437,1,The Yellow Submarine
+927,299,6,You've Got a Friend
+945,225,4,We Will Rock You
+960,434,4,You Make My Dreams
+968,139,2,Whole Lotta Love
+971,453,3,Whole Lotta Love
+978,273,4,Thunder Road
+981,261,5,We Will Rock You

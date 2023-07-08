@@ -1,0 +1,114 @@
+.cover {
+    height: 400px;
+    background-image: url("/static/cover_1.jpg");
+    background-color: rgba(0, 0, 0, .2);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-transform: uppercase;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.cover h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+}
+.flip-card-2 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 15px;
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+.flip-card-2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.flip-card-3 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-transform:none;
+    border-radius: 5px;
+    margin: 15px;
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+    background-color:  #666A6D;
+}
+.flip-card-3:hover{
+    opacity:0.5;
+}
+.row a {
+    text-decoration: none;
+}
+/*-------------Artist Profiles----------------*/
+#holder{
+    margin-top: 50px;
+}
+.profiles{
+    width: 200px;
+    height:200px;
+}
+.profile-picture{
+    /* border:1px solid black; */
+    width:250px;
+    height:250px;
+    display: flex;
+    margin: 15px;
+}
+.profile-picture img {
+    background-color: rgba(0, 0, 0, 0.9); /* Change the alpha value to adjust the darkness */
+}
+
+/* profiles */
+
+.Featured-albums th{
+    font-size:20px;
+    padding: 0 45px 0 45px;
+
+}
+.Featured-albums th:hover{
+    opacity: 0.5;
+}
+.Featured-albums td{
+    font-size:18px;
+    padding: 0 50px 0 50px;
+}
+.Featured-albums td:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+}
+th {
+    font-size:20px;
+    padding: 0 45px 0 45px;
+}
+td{
+    font-size:18px;
+    padding: 0 50px 0 50px;
+}
+.fa-heart:hover {
+  color: red;
+  cursor: pointer
+}
+#likes:hover {
+  text-decoration:underline
+}

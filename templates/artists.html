@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="/static/ico.ico">
+        <title>Music DB</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+        <!-- Bootstrap core CSS -->
+        <link href="/static/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/static/genre_styles.css" rel="stylesheet">
+        <link href="/static/carousel.css" rel="stylesheet">
+    </head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Carousel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+            {% if session.logged_in %}
+                <a class="btn btn-secondary" href="{{ url_for('logout') }}">Sign out</a>
+            {% else %}
+                <a class="btn btn-primary" href="{{ url_for('login') }}">Log in</a>
+            {% endif %}
+            </form>
+        </div>
+    </nav>
+</header>
+<main role="main">
+    <div class="container marketing">
+        <div class="cover">
+            <h1>Explore Artists</h1>
+        </div>
+        <form action="{{ url_for('artists') }}" method="get">
+            <div class="input-group">
+                <select class="form-select-dark form-select-md bg-dark form-control-lg" style="color:white" name="sort">
+                    <option value="first_name_asc" {% if sort == 'first_name_asc' %}selected{% endif %}>First Name (A-Z)</option>
+                    <option value="first_name_desc" {% if sort == 'first_name_desc' %}selected{% endif %}>First Name (Z-A)</option>
+                    <option value="albums_asc" {% if sort == 'albums_asc' %}selected{% endif %}>Albums (Low to high)</option>
+                    <option value="albums_desc" {% if sort == 'albums_desc' %}selected{% endif %}>Albums (High to low)</option>
+                </select>
+                <input class="btn btn-dark" type="submit" style="margin-left:10px;" value="Sort">
+                <div class="input-group" style="margin-top:10px;margin-bottom:10px;">
+                    <select class="form-select-dark form-select-md bg-dark form-control-lg" style="color:white" name="search_type">
+                        <option value="nationality" {% if search_type == 'nationality' %}selected{% endif %}>Search by nationality</option>
+                        <option value="age" {% if search_type == 'age' %}selected{% endif %}>Search by age</option>
+                    </select>
+                    <input class="form-control" style="margin-right:7px;margin-left:7px;" type="text" name="search_text" placeholder="Search...">
+                    <button style="margin-right:7px;margin-left:7px;" class="btn btn-dark" type="submit" name="submit_nationality" value="submit_nationality">Search by nationality</button>
+                    <button class="btn btn-dark" type="submit" name="submit_age" value="submit_age">Search by age</button>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            {% for artist in artists_data %}
+                <a href="{{ url_for('profiles', artist_id=artist[0]) }}">
+                    <div class="flip-card-3">
+                        <div>
+                            <h4>{{ artist[1] }} {{ artist[2] }}</h4>
+                            <p><strong>Albums released:</strong> {{ artist[3] }}</p>
+                            <p><strong>Genre:</strong> {{ artist[4] }}</p>
+                        </div>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        
+    </div>
+
+    <footer class="container">
+        <div>
+            {% if second_data and second_data|length == 1 and second_data[0]|length == 2 %}
+            <p>Number of artists: {{ second_data[0][0] }}</p>
+            <p>Average number of albums released per artist: {{ second_data[0][1] }}</p>
+            {% endif %}
+        </div>
+    </footer>
+    
+    
+      
+</main>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../assets/js/vendor/popper.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="../../assets/js/vendor/holder.min.js"></script>
+</body>
+</html>

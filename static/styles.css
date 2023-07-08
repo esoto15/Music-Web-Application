@@ -1,0 +1,59 @@
+/* log in and registration */
+.log-in{
+  border-radius: 25px;
+  background-color: white;
+  font-size:12px;
+  font-weight:600;
+  text-transform: uppercase;
+}
+.log-in:hover{
+  transform:scale(1.15);
+  cursor: pointer;
+  -webkit-filter: brightness(95%);
+  filter: brightness(95%);
+}
+/* index file */
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.overview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.overview img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+.overview img:hover{
+    cursor:pointer;
+    opacity: 0.7;
+
+}
+h2 {
+  display: block;
+  padding-top: 30px;
+}
+h2 a {
+  color: black;
+}
+h2:hover {
+  text-decoration: underline;
+  cursor:pointer;
+  color: black;
+}
+.overview img.large-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  margin: 7px;
+  border-radius: 5px;
+}

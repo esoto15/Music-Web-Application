@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="/static/ico.ico">
+        <title>Music DB</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+        <!-- Bootstrap core CSS -->
+        <link href="/static/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/static/genre_styles.css" rel="stylesheet">
+        <link href="/static/carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Carousel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                {% if session.logged_in %}
+                    <a class="btn btn-secondary" href="{{ url_for('logout') }}">Sign out</a>
+                {% else %}
+                    <a class="btn btn-primary" href="{{ url_for('login') }}">Log in</a>
+                {% endif %}
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container marketing" id="holder">
+            <div class="card mb-3 border-0 d-flex justify-content-center" style="padding:5px; background-color:#c5c6d0; background-size: cover;border-radius:5px; background-position: center;">
+                <div class="row no-gutters justify-content-center">
+                  <div class="profile-picture">
+                    <img src="/static/profile_picture_7.jpg" style="border-radius:150px; height:210px">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h1 style="color:#373737" class="card-title" id="title">{{ first_name }} {{ last_name }}</h1>
+                      <p style="color:#373737" class="card-text text-lg"><strong>Nationality:</strong> {{ nationality }}</p>
+                      <p style="color:#373737" class="card-text text-lg"><strong>Age:</strong> {{ age }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="my-4">
+              <h1>Tracks</h1>
+              <div class="Featured-albums" style="margin:50px;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Album Name</th>
+                            <th>Song</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for i in range(album_names|length) %}
+                            <tr>
+                                <td><i class="fas fa-play fa-xs"></i>{{ album_names[i] }}</td>
+                                <td>{{ songs[i] }}</td>
+                                <td>{{ songlength[i] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <hr class="my-4">
+            <h2 style="margin-bottom:30px">Comments</h2>
+            <div class="comment-section">
+                {% for comment in comments %}
+                    <div class="comment">
+                        <p style="color: #36454F;font-size:18px;"><strong>{{ comment[0] }} {{ comment[1] }}</strong></p>
+                        <p>{{ comment[2] }}</p>
+                        <p id="likes"><i class="fa fa-heart"></i> Likes: {{ comment[3] }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+            
+        </div>
+        
+        <footer class="container">
+            <p style="color:black;">Total Number of Tracks: {{ album_names|length }}</p>
+        </footer>
+    </main>
+</body>
+</html>
