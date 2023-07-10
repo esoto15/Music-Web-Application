@@ -8,8 +8,8 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 # --MySQL Connection--
 def sql_connector():
-    conn = pymysql.connect(user='root', password='7845',
-                           db='Music_Application', host='localhost')
+    conn = pymysql.connect(user='', password='',
+                           db='', host='')
     c = conn.cursor()
     return conn, c
 
