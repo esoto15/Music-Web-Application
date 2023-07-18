@@ -1,6 +1,9 @@
 from flask import Flask, request, render_template, url_for, flash, redirect, session
 import pymysql
 from itertools import zip_longest
+import queries
+import pyodbc
+
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
@@ -8,32 +11,39 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 # --MySQL Connection--
 def sql_connector():
-    conn = pymysql.connect(user='', password='',
-                           db='', host='')
+    conn = pymysql.connect(user='root', password='7845',
+                           db='music', host='localhost', port=3306)
     c = conn.cursor()
     return conn, c
 
 
 @app.route('/')
 def home():
+    queries.create_genres_table_query()
+    queries.create_artists_table_query()
+    queries.create_albums_table_query()
+    queries.create_users_table_query()
+    queries.create_tracks_table()
+
     return render_template("index.html")
 
 
 @app.route('/genres')
 def genres():
     conn, c = sql_connector()
-    genres = ['rock', 'pop', 'Electronic', 'R&B', "country", "Indie"]
-    colors = [' #91A3B0', ' #91A3B0', ' #91A3B0', ' #91A3B0', " #91A3B0", " #91A3B0"]
-    genres_and_colors = zip_longest(genres, colors, fillvalue='')
     # Query-1
-    c.execute("SELECT COUNT(genres.genreid) FROM GENRES")
-    count = c.fetchone()[0]
-    return render_template('genres.html', genres_and_colors=genres_and_colors, count=count)
+    sql = "SELECT genre_name from genres;"
+    c.execute(sql)
+    genres = c.fetchall()
+    print(genres)
+    c.close()
+    return render_template('genres.html', genres=genres)
 
 
 @app.route('/artists', methods=['GET'])
 def artists():
     conn, c = sql_connector()
+
     artists_data = []
     # ---Inputs----
     sort = request.args.get('sort', 'first_name_asc')
@@ -43,9 +53,9 @@ def artists():
 
     if submit_nationality:
         # -----Query-2--------
-        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENREs.name AS Genre, A.nationality " \
+        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENRES.genre_name AS Genre, A.nationality " \
               "FROM ARTISTS AS A " \
-              "INNER JOIN GENRES ON A.genre_ID = GENREs.genreID " \
+              "INNER JOIN GENRES ON A.genre_ID = GENRES.genre_id " \
               "INNER JOIN ALBUM AS B ON A.artist_ID=B.artist_ID " \
               "WHERE A.nationality = %s " \
               "GROUP BY A.artist_ID " \
@@ -59,9 +69,9 @@ def artists():
         return render_template('artists.html', artists_data=artists_data, second_data=second_data)
     elif submit_age:
         # ------ Query 4! ----
-        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENREs.name AS Genre " \
+        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENRES.genre_name AS Genre " \
               "FROM ARTISTS AS A " \
-              "INNER JOIN GENRES ON A.genre_ID = GENREs.genreID " \
+              "INNER JOIN GENRES ON A.genre_ID = GENRES.genre_id " \
               "INNER JOIN ALBUM AS B ON A.artist_ID=B.artist_ID " \
               "WHERE A.age = %s " \
               "GROUP BY A.artist_ID " \
@@ -82,28 +92,28 @@ def artists():
         return render_template('artists.html', artists_data=artists_data, second_data=second_data)
     #     --Query 7-
     if sort == 'first_name_asc':
-        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENREs.name AS Genre " \
+        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENRES.genre_name AS Genre " \
               "FROM ARTISTS AS A " \
-              "INNER JOIN GENRES ON A.genre_ID = GENREs.genreID " \
+              "INNER JOIN GENRES ON A.genre_ID = GENRES.genre_id " \
               "INNER JOIN ALBUM AS B ON A.artist_ID=B.artist_ID " \
               "GROUP BY A.artist_ID " \
               "ORDER BY A.First_Name ASC"
     elif sort == 'first_name_desc':
-        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENREs.name AS Genre " \
+        sql = "SELECT A.artist_ID, A.first_name, A.last_Name, COUNT(B.album_ID) AS AlbumsReleased, GENRES.genre_name AS Genre " \
               "FROM ARTISTS AS A " \
               "INNER JOIN GENRES ON A.genre_ID = GENREs.genreID " \
               "INNER JOIN ALBUM AS B ON A.artist_ID=B.artist_ID " \
               "GROUP BY A.artist_ID " \
               "ORDER BY A.First_Name DESC"
     elif sort == 'albums_asc':
-        sql = "SELECT A.artist_ID, A.First_Name AS First_Name, A.Last_Name AS Last_name, COUNT(B.album_ID) AS AlbumsReleased, GENREs.name AS Genre " \
+        sql = "SELECT A.artist_ID, A.First_Name AS First_Name, A.Last_Name AS Last_name, COUNT(B.album_ID) AS AlbumsReleased, GENRES.genre_name AS Genre " \
               "FROM ARTISTS AS A " \
               "INNER JOIN GENRES ON A.genre_ID = GENREs.genreID " \
               "INNER JOIN ALBUM AS B ON A.artist_ID=B.artist_ID " \
               "GROUP BY A.artist_ID " \
               "ORDER BY AlbumsReleased ASC, A.First_Name ASC"
     elif sort == 'albums_desc':
-        sql = "SELECT A.artist_ID, A.First_Name AS First_Name, A.Last_Name AS Last_name, COUNT(B.album_ID) AS AlbumsReleased, GENREs.name AS Genre " \
+        sql = "SELECT A.artist_ID, A.First_Name AS First_Name, A.Last_Name AS Last_name, COUNT(B.album_ID) AS AlbumsReleased, GENRES.genre_name AS Genre " \
               "FROM ARTISTS AS A " \
               "INNER JOIN GENRES ON A.genre_ID = GENREs.genreID " \
               "INNER JOIN ALBUM AS B ON A.artist_ID=B.artist_ID " \
@@ -183,7 +193,8 @@ def login():
                 session['logged_in'] = True
                 return redirect(url_for('home'))
         else:
-            return 'Incorrect username or password'
+            error_message = 'Incorrect username or password'
+            return render_template('login.html', error_message=error_message)
     else:
         return render_template('login.html')
 
